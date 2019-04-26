@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMS", "SMS\SMS.csproj", "{AE01BB08-7DAA-460D-B1D8-150C8299CE04}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMS.MVC", "SMS\SMS.MVC.csproj", "{AE01BB08-7DAA-460D-B1D8-150C8299CE04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMS.API", "SMS.API\SMS.API.csproj", "{0ADB2814-627D-42E6-9F2F-64A20212591C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{AE01BB08-7DAA-460D-B1D8-150C8299CE04}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE01BB08-7DAA-460D-B1D8-150C8299CE04}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE01BB08-7DAA-460D-B1D8-150C8299CE04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0ADB2814-627D-42E6-9F2F-64A20212591C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ADB2814-627D-42E6-9F2F-64A20212591C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ADB2814-627D-42E6-9F2F-64A20212591C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ADB2814-627D-42E6-9F2F-64A20212591C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
